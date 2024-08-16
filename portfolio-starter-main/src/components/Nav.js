@@ -8,7 +8,7 @@ const Nav = () => {
         <nav className="fixed bottom-2 lg:bottom-4 w-full overflow-hidden z-50">
             <div className="flex justify-center">
                 {/* nav inner */}
-                <div className="bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] w-full px-5 flex justify-between items-center text-2xl text-white/50">
+                <div className="bg-black/20 h-[65px] backdrop-blur-2xl rounded-full max-w-[460px] w-full px-5 flex justify-between items-center text-2xl text-white/50">
                     <Link to="home"
                           activeclass={true}
                           smooth={true}
